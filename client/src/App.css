@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+#container{
+  /* width: 80px;
+  height: 900px; */
+  background-color: #1f2024;
+  
+}
+#containerTwo{
+  /* width: 200px;
+  height: 900px; */
+  background-color:#1c1d1f;
+}
+.mainContainer{
+ display: flex;
+ background-color: #1f2024;
+ /* flex-direction: row; */
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ overflow: hidden;
+
+}
+.element{
+  width: 45px;
+height: 45px;
+background-color: #3c3f44;
+border-radius: 7px;
+margin:12px;
+}
+hr{
+  width: 55px;
+  display: flex;
+}
+.boxView{
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+.elementOne{
+  width:18px;
+  height:18px;
+  border-radius:2px;
+  background-color:#1f2024;
+  margin:3px;
+}
+.elementTwo{
+  width:120px;
+  height:18px;
+  border-radius:2px;
+  background-color:#1f2024;
+  margin:3px;
+}
